@@ -998,4 +998,5 @@ final_model.fit(X, y)
 model_data = {
     "model": final_model,
 }
+
 dump(model_data, "terminator_strength_predictorv1.3.joblib")
